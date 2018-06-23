@@ -1,0 +1,14 @@
+{
+    "global": {
+        "output-directory": "/var/www/default/gallery",
+        "clean-destination": true,
+        "dir-flattening-depth": 1,
+        "puburl": "https://images.gentoo-ev.org/gallery/"
+    },
+    "webgal": {
+        "webalbumpic-size": "250x250",
+        "sort-subgals": "dirname:reverse",
+        "original": true,
+        "original-baseurl": "../files/Exhibitions/"
+    }
+}
