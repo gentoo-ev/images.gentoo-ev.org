@@ -5,7 +5,15 @@
         "dir-flattening-depth": 1,
         "puburl": "https://images.gentoo-ev.org/gallery/"
     },
+    "template-vars": {
+        "lnkcolor": "#e0e0e0",
+        "bgcolor": "#202020",
+        "txtcolor": "#d0d0d0",
+        "lnkdecoration": "underline"
+    },
     "webgal": {
+        "image-size": "medium=1024x685",
+        "thumbnail-size": "200x200",
         "webalbumpic-size": "250x250",
         "sort-subgals": "dirname:reverse",
         "original": true,
