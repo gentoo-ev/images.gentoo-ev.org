@@ -9,7 +9,7 @@
         "lnkcolor": "#e0e0e0",
         "bgcolor": "#202020",
         "txtcolor": "#d0d0d0",
-        "lnkdecoration": "underline"
+        "lnkdecoration": "none"
     },
     "webgal": {
         "image-size": "medium=1024x685",
