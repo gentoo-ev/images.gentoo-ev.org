@@ -1,6 +1,6 @@
 {
     "global": {
-        "output-directory": "/var/www/default/gallery",
+        "output-directory": "/var/www/html/gallery",
         "clean-destination": true,
         "dir-flattening-depth": 1,
         "puburl": "https://images.gentoo-ev.org/gallery/"
