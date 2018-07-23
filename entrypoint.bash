@@ -5,10 +5,10 @@
 set -e
 
 PS4='# '
-set -x
 
-LC_ALL=C.UTF-8 lazygal /var/www/html/files/Exhibitions/
+( set -x; LC_ALL=C.UTF-8 lazygal /var/www/html/files/Exhibitions/ )
 
 if [[ $# -gt 1 ]]; then
+    set -x
     "$@"
 fi
