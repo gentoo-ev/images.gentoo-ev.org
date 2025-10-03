@@ -9,7 +9,8 @@
         "lnkcolor": "#e0e0e0",
         "bgcolor": "#202020",
         "txtcolor": "#d0d0d0",
-        "lnkdecoration": "none"
+        "lnkdecoration": "none",
+        "footer": "<p><a href='https://gentoo-ev.org/kontakt/'>Impressum/Kontakt</a> &middot; <a href='https://gentoo-ev.org/rechtliches/datenschutz/'>Datenschutzerklärung</a></p>"
     },
     "webgal": {
         "image-size": "medium=1024x685",
