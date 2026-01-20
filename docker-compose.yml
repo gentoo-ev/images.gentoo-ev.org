@@ -12,9 +12,6 @@ services:
       - 127.0.0.1:50380:80
     volumes:
       - ./htdocs/files:/var/www/html/files
-      - ./entrypoint.bash:/root/entrypoint.bash
-      - ./lazygal.conf.json:/root/.lazygal/config
-      - ./lighttpd-url-rewrites.conf:/etc/lighttpd/conf-enabled/99-url-rewrites.conf
     networks:
       - default
       - ssl-reverse-proxy

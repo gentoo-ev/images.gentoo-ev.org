@@ -16,6 +16,7 @@ RUN apt-get update \
 COPY htdocs             /var/www/html/
 COPY entrypoint.bash    /root/
 COPY lazygal.conf.json  /root/.lazygal/config
+COPY lighttpd/*.conf    /etc/lighttpd/conf-enabled/
 
 # Sync gallery (and run appended CMD, if any)
 RUN ["/root/entrypoint.bash"]
