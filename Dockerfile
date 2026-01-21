@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Sebastian Pipping <sebastian@pipping.org>
 # Licensed under the MIT license
 
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
