@@ -13,6 +13,9 @@ RUN apt-get update \
         lazygal \
         lighttpd
 
+# Delete Debian's dummy index
+RUN rm -f /var/www/html/index.lighttpd.html
+
 COPY htdocs             /var/www/html/
 COPY entrypoint.bash    /root/
 COPY lazygal.conf.json  /root/.lazygal/config
